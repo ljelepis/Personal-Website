@@ -1,19 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Navbar, NavbarBrand } from 'reactstrap';
-import Gallery from './components/ProjectComponent';
+import Main from './components/MainComponent';
 
 class App extends Component {
-  render() {
+
+    render() {
     return (
-      <div>
-        <Navbar dark color="primary">
-          <div className="container">
-            <NavbarBrand href="/">Lindsey Jelepis</NavbarBrand>
+          <div className="App">
+            <Main />
           </div>
-        </Navbar>
-        <Gallery />
-      </div>
     );
   }
 }
